@@ -19,4 +19,3 @@ class Solution {
 
     }
 }
-// simple binary search algo aur kuch nahi
