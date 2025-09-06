@@ -14,9 +14,11 @@ public class SortedorNot {
         }
         return false;
     }
+    
+    //or
 
     static boolean sorted2(int[] arr, int i) {
         if(i==arr.length-1) return true;
-        return arr[i] < arr[i+1] && sorted(arr,i+1);
+        return arr[i] < arr[i+1] && sorted2(arr,i+1);
     }
 }

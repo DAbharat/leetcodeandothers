@@ -14,6 +14,8 @@ public class LinearSearch {
         return search(arr,target,i+1);
     }
 
+    //or
+    
     static boolean search2(int[] arr, int target, int i) {
         if(i == arr.length) return false;
         return arr[i] == target || search2(arr,target,i+1);
