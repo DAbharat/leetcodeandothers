@@ -10,7 +10,9 @@ public class QuickSort {
     }
 
     static void sort (int[] arr, int low, int high) {
-        if(low>=high) return;
+        if(low>=high) {
+            return;
+        }
 
         int start = low;
         int end = high;
